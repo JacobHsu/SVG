@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+    <svg width="350" height="160">
+      <g class="layer" transform="translate(60,10)">
+        <circle r="5" cx="0"   cy="43" />
+        <circle r="5" cx="90"  cy="36"  />
+        <circle r="5" cx="180" cy="06"  />
+        <circle r="5" cx="270" cy="11"   />
+
+        <g class="y axis">
+          <line x1="0" y1="0" x2="0" y2="120" style="stroke:rgb(0,0,0);stroke-width:1"/>
+          <text x="-40" y="105" dy="5">30</text>
+          <text x="-40" y="0"   dy="5">31</text>
+        </g>
+        <g class="x axis" transform="translate(0, 120)">
+          <line x1="0" y1="0" x2="270" y2="0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+          <text x="-30"   y="20">6/26</text>
+          <text x="240" y="20">8/6</text>
+        </g>
+      </g>
+    </svg>
+    
+    <br>
+    <style>
+	table {
+	    font-family: arial, sans-serif;
+	    border-collapse: collapse;
+	    width: 200px;
+	    margin: 60px;
+	}
+
+	td, th {
+	    border: 1px solid #ddd;
+	    text-align: left;
+	    padding: 8px;
+	}
+
+	tr:nth-child(even) {
+	    background-color: #ddd;
+	}
+	</style>
+	<table>
+	  <tr>
+	    <th>Date</th>
+	    <th>Currency</th>
+	  </tr>
+	  <tr>
+	    <td>2018-06-26</td>
+	    <td>30.57</td>
+	  </tr>
+	  <tr>
+	    <td>2018-07-09</td>
+	    <td>30.64</td>
+	  </tr>
+	  <tr>
+	    <td>2018-07-23</td>
+	    <td>30.94</td>
+	  </tr>
+	  <tr>
+	    <td>2018-08-06</td>
+	    <td>30.89</td>
+	  </tr>
+	</table>
+</body>
+</html>
